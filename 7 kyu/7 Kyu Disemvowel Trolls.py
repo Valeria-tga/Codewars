@@ -34,3 +34,9 @@ def disemvowel(string_):
             string_ = string_[k + 1:]
     result=result+string_
     return result
+
+def disemvowel(string):
+    return "".join(c for c in string if c.lower() not in "aeiou")
+
+def disemvowel(s):
+    return s.translate(None, "aeiouAEIOU")
