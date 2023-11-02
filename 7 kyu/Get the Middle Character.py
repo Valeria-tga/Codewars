@@ -30,3 +30,23 @@ def get_middle(s):
 
 
 print(get_middle('tests'))
+
+# decision 1
+# def get_middle(s):
+#     return s[(len(s)-1)//2:len(s)//2+1]
+
+# decision 2
+# def get_middle(s):
+#     index, odd = divmod(len(s), 2)
+#     return s[index] if odd else s[index - 1:index + 1]
+
+# decision 3
+# import math
+# def get_middle(s):
+#     #your code here
+#     x = len(s)
+#     y = int(x/2)
+#     if x%2==0:
+#         return s[y-1:y+1]
+#     else:
+#         return s[y:y+1]
