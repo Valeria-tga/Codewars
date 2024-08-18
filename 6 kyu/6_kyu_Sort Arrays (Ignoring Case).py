@@ -5,7 +5,8 @@
 
 
 # list=["C", "d", "a", "B"]
-list=["Hello", "there", "I'm", "fine"]
+# list=["Hello", "there", "I'm", "fine"]
+list=['a', 'come', 'Case', 'find', 'group', 'It', 'Last', 'Long', 'Own', 'point', 'public', 'see', 'Small', 'They', 'Time', 'up']
 # print(ord(list[1].lower()))
 #Sort choice
 if len(list[0])<=1:
@@ -36,3 +37,5 @@ else:
         list[ind]=temp
 print(list)
 
+# ['a', 'come', 'Case', 'find', 'group', 'It', 'Last', 'Long', 'Own', 'point', 'public', 'see', 'Small', 'They', 'Time', 'up']
+# should equal ['a', 'Case', 'come', 'find', 'group', 'It', 'Last', 'Long', 'Own', 'point', 'public', 'see', 'Small', 'They', 'Time', 'up']
